@@ -1,0 +1,134 @@
+/* ======================
+        Generals
+========================*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Gilda;
+    src: url("../fonts/Gilda_Display/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: MavenPro;
+    src: url("../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf");
+}
+
+/*=======================
+        HEADER
+========================*/
+
+header{
+    background-color: #333;
+}
+
+header article{
+    text-align: center;
+    color: white;
+    width: 250px;
+    border: 2px;
+    margin: auto;
+    margin-bottom: 200px;
+    padding: 4px 4px;
+    background-image: linear-gradient(to top right, purple, #3dc8d5);
+    border: 30px solid #333;
+    border-radius: 34px;
+}
+
+header article h1{
+    font-size: 62px;
+    font-family: Gilda;
+}
+
+header article p{
+    font-family: MavenPro;
+    padding-bottom: 3px;
+}
+
+header nav{
+    display: block;
+    text-align: right;
+    padding-right:25px;
+    padding-bottom: 40px;
+}
+
+header nav a{
+    display: block;
+    padding: 6px 4px;
+    text-decoration: none;
+    color: #cccccc;
+    font-family: MavenPro;
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
+
+
+/*=======================
+        MAIN
+========================*/
+
+#stuff{
+    background-image: url("../img/projects.svg");
+    background-repeat: no-repeat;
+    background-position: 130px 157px;
+}
+
+#stuff article h1{
+    font-size: 42px;
+    padding-top: 110px;
+    padding-bottom: 35px;
+}
+
+#stuff article{
+    width: 407px;
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+#stuff article p{
+    font-family: MavenPro;
+}
+
+#stuff article p:nth-of-type(1){
+    padding-bottom: 20px;
+}
+
+section img{
+    width: 750px;
+    background-size: cover;
+    padding: 0 0;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+section{
+    padding-left: 130px;
+    padding-bottom: 190px;
+}
+
+section article{
+    padding-top: 30px;
+}
+
+section article h2{
+    font-family: Gilda;
+    font-size: 32px;
+    padding-bottom: 12px;
+    /*hat nicht geklappt:
+    font-weight: bold;*/
+    
+}
+
+section article p{
+    font-family: MavenPro;
+    font-size: 14px;
+}
+
+.pics{
+    padding-left: 220px;
+}
